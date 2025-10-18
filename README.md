@@ -2,6 +2,12 @@
 
 A comprehensive, SEO-optimized web application for calculating final grades, weighted grades, and grade conversions. Built with Next.js 15, TypeScript, and Tailwind CSS.
 
+## Live Site
+
+Explore the hosted experience at [finalgradecalculator.app](https://finalgradecalculator.app/).
+
+![Final Grade Calculator interface](public/product-screenshot.png)
+
 ## Features
 
 ### Core Calculators
