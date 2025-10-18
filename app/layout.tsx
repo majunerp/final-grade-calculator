@@ -29,6 +29,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={inter.variable}>
+      <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-S5X8Y1T7RF"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-S5X8Y1T7RF');
+            `,
+          }}
+        />
+      </head>
       <body className="flex flex-col min-h-screen antialiased">
         <Header />
         <main className="flex-1">{children}</main>
